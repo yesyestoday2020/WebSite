@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\banner.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\banner1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\banner2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\banner3.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\banner4.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\c1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\c2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\c3.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\c4.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\client.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\clock.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\contact.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\i1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\i2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\i3.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\i4.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\i5.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\i6.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\icon1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\icon2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\icon3.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\icons.svg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\img-sprite.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\line.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\list-hover.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\logo.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\month1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\nav.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\pic1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\pic10.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\pic11.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\pic12.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\pic2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\pic3.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\pic4.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\pic5.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\pic6.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\pic7.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\pic8.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\pic9.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\project.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\star.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\top-arrow.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Two\images\up-arrow.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Three" />
+    <Folder Include="wwwroot\Two" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,226 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "主页";
+}
+
+<div class="text-center">
+  <main role="main">
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1>个人站点</h1>
+        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">点击</a>
+          <a href="#" class="btn btn-secondary my-2" data-toggle="modal" data-target="#exampleModal">查看我的联系方式</a>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">我的联系方式</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>我的邮箱 : heguohui2017@outlook.com</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </p>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                 <image xlink:href="https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/1.2iuznch9cny8.jpeg" x="0" y="0" width="100%" height="100%"  >
+                   <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"/>
+                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">张宇的个人站点</text>
+                 </image>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">快乐的张宇</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a type="button" class="btn btn-sm btn-outline-secondary" href="~/One/One">查看</a>
+                    @* <button type="button" class="btn btn-sm btn-outline-secondary">编辑</button> *@
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                 <image xlink:href="https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/1.2iuznch9cny8.jpeg" x="0" y="0" width="100%" height="100%"  >
+                 <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">迪克牛仔的个人站点</text>
+                 </image>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">快乐的迪克牛仔</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a type="button" class="btn btn-sm btn-outline-secondary" href="~/Two/Two">查看</a>
+                    @* <button type="button" class="btn btn-sm btn-outline-secondary">编辑</button> *@
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                 <image xlink:href="https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/1.2iuznch9cny8.jpeg" x="0" y="0" width="100%" height="100%"  >
+                 <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">马云的个人站点</text>
+                 </image>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">快乐的马云</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a type="button" class="btn btn-sm btn-outline-secondary" href="~/Three/Three">查看</a>
+                    @* <button type="button" class="btn btn-sm btn-outline-secondary">编辑</button> *@
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                 <image xlink:href="https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/1.2iuznch9cny8.jpeg" x="0" y="0" width="100%" height="100%"  >
+                 <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">马化腾的个人站点</text>
+                 </image>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">快乐的马化腾</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a type="button" class="btn btn-sm btn-outline-secondary" href="~/Four/Four">查看</a>
+                    @* <button type="button" class="btn btn-sm btn-outline-secondary">编辑</button> *@
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                 <image xlink:href="https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/1.2iuznch9cny8.jpeg" x="0" y="0" width="100%" height="100%"  >
+                   <title>Placeholder</title>
+                   <rect width="100%" height="100%" fill="#55595c"/>
+                 </image>
+                <text x="20%" y="20%" fill="yellow" dy=".3em" >乔布斯的个人站点</text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">快乐的乔布斯</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a type="button" class="btn btn-sm btn-outline-secondary" href="~/Five/Five">查看</a>
+                    @* <button type="button" class="btn btn-sm btn-outline-secondary">编辑</button> *@
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                 <image xlink:href="https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/1.2iuznch9cny8.jpeg" x="0" y="0" width="100%" height="100%"  >
+                 <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">国民男神王思聪的个人站点</text>
+                 </image>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">快乐的王思聪</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a type="button" class="btn btn-sm btn-outline-secondary" href="~/Six/Six">查看</a>
+                    @* <button type="button" class="btn btn-sm btn-outline-secondary">编辑</button> *@
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                 <image xlink:href="https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/1.2iuznch9cny8.jpeg" x="0" y="0" width="100%" height="100%"  >
+                   <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">胡歌的个人站点</text>
+                 </image>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">快乐的胡歌</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">查看</button>
+                    @* <button type="button" class="btn btn-sm btn-outline-secondary">编辑</button> *@
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                 <image xlink:href="https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/1.2iuznch9cny8.jpeg" x="0" y="0" width="100%" height="100%"  >
+                   <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">萌鸡小队的个人站点</text>
+                 </image>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">快乐的萌鸡小队</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">查看</button>
+                    @* <button type="button" class="btn btn-sm btn-outline-secondary">编辑</button> *@
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+                <image xlink:href="https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/1.2iuznch9cny8.jpeg" x="0" y="0" width="100%" height="100%"  >
+                  <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">胡歌的个人站点</text>
+                </image>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">快乐的胡歌</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">查看
+                      
+                     </button>
+                    @* <button type="button" class="btn btn-sm btn-outline-secondary">编辑</button> *@
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+	
+</div>
