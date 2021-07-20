@@ -4,6 +4,8 @@
 
 ## 项目采用技术
 
+![avatar](https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/xxx.6z1tvq50kayo.png)
+
 ### html
 
 ### css
@@ -15,8 +17,6 @@
 ### boostrop
 
 ## 页面效果
-
-![avatar](https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/xxx.6z1tvq50kayo.png)
 
 ### 主页
 
