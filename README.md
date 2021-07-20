@@ -16,6 +16,8 @@
 
 ## 页面效果
 
+![avatar](https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/xxx.6z1tvq50kayo.png)
+
 ### 主页
 
 ![主页](https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/WebSite项目/xxx.6ox0r33gzxk0.png)
