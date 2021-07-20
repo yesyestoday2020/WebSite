@@ -27,3 +27,11 @@
 ### 查看页面
 
 ![avatar](https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/WebSite项目/screencapture-localhost-5001-See-2021-07-20-13_06_29.w78dmof5usw.png)
+
+### 其他页面
+
+![avatar](https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/xxx.5cf95bjngeww.png)
+
+![avatar](https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/xxx.5273hyo8mm4g.png)
+
+![avatar](https://cdn.jsdelivr.net/gh/yesyestoday2020/blog_images@main/xxx.3du6yu84l16o.png)
